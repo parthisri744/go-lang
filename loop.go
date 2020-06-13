@@ -27,7 +27,7 @@ fmt.Println(" y is equal to 20 and greater then 50 ")
 fmt.Println(" y is greater then 50")
 }
 //switch statement
-  a,b := 3,1
+  a,b := 0,1
     switch a+b {
     case 1:
         fmt.Println("Sum is 1")
