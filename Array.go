@@ -23,12 +23,11 @@ fmt.Println("After creating Array :", a)
 //array
  b := [3] string {"parthi","parthisri","parthiban"}
  fmt.Println("second array :" ,b)
- var d [] string = b[1:2]
- fmt.Println("b after slicing :", d)
  //
- var c [] string = a[2:3]
+ var c [] string = a[2:4]
  fmt.Println("after slicing array :",c)
  c[1] = "parthisri"
  fmt.Println("slice after modification",c)
  fmt.Println("slice count :",len(c))
  }
+ 
