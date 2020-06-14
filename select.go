@@ -19,5 +19,7 @@ case x := <- ch1:
 fmt.Println(x)
 case y := <- ch2:
 fmt.Println(y)
+default:
+    	fmt.Println("Default case executed")
 }
 }
